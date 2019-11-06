@@ -1,0 +1,29 @@
+html {
+  font-family: Open Sans;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.banner {
+  position: relative;
+}
+.banner-content {
+  padding: 0 1rem;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+
+h2{
+  display: inline;
+  margin:0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+}
