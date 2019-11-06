@@ -1,5 +1,5 @@
 html {
-  font-family: Open Sans;
+  font-family: "Open Sans";
 }
 
 *, *::before, *::after {
@@ -9,6 +9,7 @@ html {
 .banner {
   position: relative;
 }
+
 .banner-content {
   padding: 0 1rem;
   position: absolute;
@@ -20,10 +21,7 @@ html {
   width: 100%;
 }
 
-
-h2{
-  display: inline;
-  margin:0;
+h2 {
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
 }
