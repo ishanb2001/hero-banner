@@ -18,10 +18,11 @@ html {
 
 .img-flex {
   display: block;
-  width: 100%;
+  width: 50em;
 }
 
 h2 {
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
+  font-size: 4rem;
 }
