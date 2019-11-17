@@ -8,9 +8,10 @@ html {
 
 .highlight{
   background-color: #808080;
+
 }
 .banner {
-  position: relative;
+  position: center;
   text-align: left;
   max-height: 500px;
 }
@@ -26,18 +27,10 @@ html {
 }
 
 .img-flex {
-  display: block;
-  width: 50em;
   position: absolute;
   top: 90%;
   left: 40%;
   font-size: 2rem;
   font-weight: bold;
   font-style: italic;
-}
-
-h2 {
-  color: #fff;
-  background-color: rgba(0, 0, 0, .5);
-  font-size: 4rem;
 }
