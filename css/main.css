@@ -7,7 +7,7 @@ html {
 }
 
 .highlight{
-  background-color: #808080;
+  background: #808080;
 
 }
 .banner {
@@ -17,7 +17,7 @@ html {
 }
 
 .banner-content {
-  padding: absolute;
+  position: absolute;
   top: 50%;
   left: 10%;
   font-size: 4rem;
@@ -33,4 +33,5 @@ html {
   font-size: 2rem;
   font-weight: bold;
   font-style: italic;
+  transform: translate(-50%, -15%);
 }
