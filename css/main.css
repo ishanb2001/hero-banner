@@ -1,5 +1,6 @@
 html {
   font-family: "Open Sans";
+  position: relative;
 }
 
 *, *::before, *::after {
@@ -7,13 +8,14 @@ html {
 }
 
 .highlight{
-  background: #808080;
+  background-color: rgba(0, 0, 0, .5)
 
 }
 .banner {
   position: center;
   text-align: left;
   max-height: 500px;
+  bottom: 0;
 }
 
 .banner-content {
@@ -24,6 +26,7 @@ html {
   line height: 1.5;
   font-weight: bold;
   width: 50em;
+  color: #fff;
 }
 
 .img-flex {
