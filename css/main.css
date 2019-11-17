@@ -21,14 +21,19 @@ html {
   left: 10%;
   font-size: 4rem;
   line height: 1.5;
-  padding: 0 1rem;
-  position: absolute;
-  bottom: 1rem;
+  font-weight: bold;
+  width: 50em;
 }
 
 .img-flex {
   display: block;
   width: 50em;
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
 }
 
 h2 {
