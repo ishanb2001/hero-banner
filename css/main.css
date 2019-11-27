@@ -7,7 +7,7 @@ html {
   box-sizing: inherit;
 }
 
-body{
+body {
   margin: 0;
 }
 
@@ -17,10 +17,6 @@ body{
   max-height: 500px;
   overflow: hidden;
 
-}
-span {
-  display: inline;
-  background-color: rgba(0, 0, 0, .5);
 }
 
 .banner-content {
@@ -54,6 +50,7 @@ p {
   color: #000;
   font-style: italic;
 }
+
 .img-flex {
   display: block;
   width: 100%;
