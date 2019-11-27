@@ -16,7 +16,6 @@ body {
   text-align: left;
   max-height: 500px;
   overflow: hidden;
-
 }
 
 .banner-content {
@@ -26,7 +25,6 @@ body {
   width: 100%;
   color: #fff;
   padding: 1rem;
-  max-width: 50em;
   bottom: -1em;
   transform: translateX(-50%);
 }
