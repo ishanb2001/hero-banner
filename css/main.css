@@ -1,22 +1,30 @@
 html {
   font-family: "Open Sans";
-  line-height: 1.5;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.highlight{
-  background-color: rgba(0, 0, 0, .5)
-
+body{
+  margin: 0;
 }
+
+.highlight{
+  display: inline;
+}
+
 .banner {
   position: relative;
   text-align: left;
   max-height: 500px;
-  bottom: 0;
+  overflow: hidden;
 
+}
+span {
+  display: inline;
+  background-color: rgba(0, 0, 0, .5);
 }
 
 .banner-content {
@@ -24,25 +32,32 @@ html {
   top: 4px;
   left: 50%;
   font-size: 4rem;
-  line height: 1.5em;
+  line height: 1.5;
   font-weight: bold;
-  width: 50em;
-  color: #fff;
-  text-align: left;
-  margin: 0 auto;
-  display: block;
-}
-
-.img-flex {
-  position: absolute;
-  top: 73%;
-  left: 49%;
-  font-size: 2rem;
-  font-style: italic;
-  transform: translate(-50%, -15%);
-  overflow: hidden;
-}
-
-img{
   width: 100%;
+  color: #fff;
+  line-height: 1.4;
+  margin: 0;
+  transform: translateX(-50%);
+}
+
+p{
+    margin: 1.2rem;
+    text-align: left;
+    padding-bottom: 0;
+}
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (min-width: 85em) {
+
+  .banner-content {
+    max-width: 50em;
+    position: absolute;
+    left: 54%;
+    transform: translateX(-50%);
+    bottom: 1.5em;
+  }
 }
