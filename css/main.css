@@ -1,5 +1,6 @@
 html {
   font-family: "Open Sans";
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -20,10 +21,10 @@ html {
 
 .banner-content {
   position: absolute;
-  top: 50%;
-  left: 26%;
+  top: 33%;
+  left: 24%;
   font-size: 4rem;
-  line height: 1.5;
+  line height: 1.5em;
   font-weight: bold;
   width: 50em;
   color: #fff;
@@ -31,9 +32,14 @@ html {
 
 .img-flex {
   position: absolute;
-  top: 90%;
-  left: 50%;
+  top: 73%;
+  left: 49%;
   font-size: 2rem;
   font-style: italic;
   transform: translate(-50%, -15%);
+  overflow: hidden;
+}
+
+img{
+  width: 100%;
 }
