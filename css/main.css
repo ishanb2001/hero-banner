@@ -1,6 +1,7 @@
 html {
   font-family: "Open Sans";
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -24,13 +25,14 @@ body {
   max-width: 50em;
   width: 100%;
   color: #fff;
-  padding: 1rem;
-  bottom: -1em;
+  padding: 0 1.5rem;
+  bottom: -.5em;
   transform: translateX(-50%);
 }
 
 h2 {
   background-color: rgba(0, 0, 0, .5);
+  line-height: 1.4;
 }
 
 div h2 {
@@ -40,10 +42,9 @@ div h2 {
 }
 
 p {
-  margin: 1.2rem;
   text-align: left;
   font-size: 2rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   padding-bottom: 0;
   color: #000;
   font-style: italic;
