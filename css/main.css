@@ -21,13 +21,16 @@ html {
 
 .banner-content {
   position: absolute;
-  top: 33%;
-  left: 24%;
+  top: 4px;
+  left: 50%;
   font-size: 4rem;
   line height: 1.5em;
   font-weight: bold;
   width: 50em;
   color: #fff;
+  text-align: left;
+  margin: 0 auto;
+  display: block;
 }
 
 .img-flex {
